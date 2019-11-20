@@ -1,20 +1,17 @@
-func solution(_ n:Int) -> Int {
-    var sum = 0
+func solution(_ s:String) -> String {
+    var uppercaseToggle = true
     
-    if n == 1 || n == 0 {
-        return n
-    }
-    
-    for quotient in 1...n/2 {
-        if n%quotient == 0 {
-            sum += quotient
+    return String(s.map { (character) -> Character in
+        if uppercaseToggle && character != " " {
+            uppercaseToggle = false
+            return Character(character.uppercased())
         }
-    }
-    
-    return sum + n
+        
+        uppercaseToggle = true
+        return Character(character.lowercased())
+    })
 }
 
-solution(0)
-solution(1)
-solution(5)
-solution(12)
+solution("try hello world")
+solution("try hi world")
+solution("TRY HELLO WORLD")
