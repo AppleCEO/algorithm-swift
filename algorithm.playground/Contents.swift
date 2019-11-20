@@ -1,11 +1,20 @@
-func solution(_ s:String) -> Int {
-    if s[s.startIndex] == "-" {
-        return -1*(Int(String(s[s.index(after: s.startIndex)..<s.endIndex])) ?? 0)
+func solution(_ n:Int) -> Int {
+    var sum = 0
+    
+    if n == 1 || n == 0 {
+        return n
     }
     
-    return Int(String(s[s.startIndex..<s.endIndex])) ?? 0
+    for quotient in 1...n/2 {
+        if n%quotient == 0 {
+            sum += quotient
+        }
+    }
+    
+    return sum + n
 }
 
-solution("+1")
-solution("-1")
-solution("1")
+solution(0)
+solution(1)
+solution(5)
+solution(12)
