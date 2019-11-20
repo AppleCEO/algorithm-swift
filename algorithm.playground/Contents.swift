@@ -1,17 +1,17 @@
-func solution(_ s:String) -> String {
-    var uppercaseToggle = true
+import Foundation
+
+func solution(_ n:Int) -> Int
+{
+    var answer:Int = 0
+    var input = n
     
-    return String(s.map { (character) -> Character in
-        if uppercaseToggle && character != " " {
-            uppercaseToggle = false
-            return Character(character.uppercased())
-        }
-        
-        uppercaseToggle = true
-        return Character(character.lowercased())
-    })
+    while input > 0 {
+        answer += input%10
+        input /= 10
+    }
+    
+    return answer
 }
 
-solution("try hello world")
-solution("try hi world")
-solution("TRY HELLO WORLD")
+solution(123)
+solution(987)
