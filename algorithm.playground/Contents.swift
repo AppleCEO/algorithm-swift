@@ -1,13 +1,12 @@
 import Foundation
 
-func solution(_ n:Int) -> Int
+func solution(_ n:Int64) -> [Int]
 {
-    var answer:Int = 0
-    var input = n
+    var answer:[Int] = []
     
-    while input > 0 {
-        answer += input%10
-        input /= 10
+    for number in String(n)
+    {
+        answer.insert(Int(String(number)) ?? 0, at: 0)
     }
     
     return answer
