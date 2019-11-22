@@ -1,21 +1,23 @@
-func solution(_ n:Int, _ m:Int) -> [Int] {
-    let gcd: Int
-    let lcm: Int
-
-    func calculateGCD(_ n: Int, _ m: Int) -> Int {
-        if m == 0 {
-            return n
+func solution(_ num:Int) -> Int {
+    func calculateCount(_ count: Int, _ inputNumber: Int) -> Int {
+        if count > 500 {
+            return -1
         }
-            
-        return calculateGCD(m, n%m)
+        
+        if inputNumber == 1 {
+            return count
+        }
+        
+        if inputNumber % 2 == 0 {
+            return calculateCount(count+1, inputNumber/2)
+        }
+        
+        return calculateCount(count+1, inputNumber*3+1)
     }
     
-    gcd = calculateGCD(n, m)
-    lcm = n * m / gcd
-    
-    return [gcd, lcm]
+    return calculateCount(0, num)
 }
 
-solution(3, 12)
-solution(2, 5)
-solution(11, 144)
+solution(6)
+solution(16)
+solution(626331)
