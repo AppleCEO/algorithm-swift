@@ -1,9 +1,6 @@
-func solution(_ arr:[Int]) -> [Int] {
-    var array = arr
-    
-    array.remove(at: array.firstIndex(of: array.min() ?? array[0])!)
-    
-    return array
+func solution(_ num:Int) -> String {
+    return num%2 == 0 ? "Even" : "Odd"
 }
 
-solution([4,3,2,1])
+solution(3)
+solution(4)
