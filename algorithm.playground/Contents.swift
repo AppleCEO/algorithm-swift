@@ -1,17 +1,9 @@
-import Foundation
-
-func solution(_ n:Int64) -> Int64 {
-    func isSquareRootInt(_ number: Int64) -> Bool {
-        let squareRoot = sqrt(Double(n))
-        return squareRoot == floor(squareRoot)
-    }
+func solution(_ arr:[Int]) -> [Int] {
+    var array = arr
     
-    if isSquareRootInt(n) {
-        return Int64((sqrt(Double(n))+1)*(sqrt(Double(n))+1))
-    }
+    array.remove(at: array.firstIndex(of: array.min() ?? array[0])!)
     
-    return -1
+    return array
 }
 
-solution(121)
-solution(3)
+solution([4,3,2,1])
