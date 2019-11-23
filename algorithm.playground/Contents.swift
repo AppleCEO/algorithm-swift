@@ -1,8 +1,13 @@
-func solution(_ arr:[Int]) -> Double {
-    return Double(arr.reduce(0) { (result, number) -> Int in
-        result + number
-    })/Double(arr.count)
+func solution(_ x:Int) -> Bool {
+    let sum = String(x).reduce(0) { (result, character) -> Int in
+        result + (Int(String(character)) ?? 0)
+    }
+    
+    return x % sum == 0
 }
 
-solution([1,2,3,4])
-solution([5,5])
+solution(10)
+solution(11)
+solution(12)
+solution(13)
+solution(18)
