@@ -1,13 +1,17 @@
-func solution(_ x:Int) -> Bool {
-    let sum = String(x).reduce(0) { (result, character) -> Int in
-        result + (Int(String(character)) ?? 0)
-    }
+func solution(_ phone_number:String) -> String {
+    var index = 0
     
-    return x % sum == 0
+    return String(Array(phone_number).map { (character) -> Character in
+        defer {
+            index += 1
+        }
+        if index < phone_number.count-4 {
+            return "*"
+        }
+        
+        return character
+    })
 }
 
-solution(10)
-solution(11)
-solution(12)
-solution(13)
-solution(18)
+solution("01033334444")
+solution("027778888")
