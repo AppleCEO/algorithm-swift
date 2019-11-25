@@ -1,17 +1,19 @@
-func solution(_ phone_number:String) -> String {
-    var index = 0
+func solution(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
+    var i = 0, j = 0
     
-    return String(Array(phone_number).map { (character) -> Character in
+    return arr1.map { (numbers) -> [Int] in
         defer {
-            index += 1
+            i += 1
+            j = 0
         }
-        if index < phone_number.count-4 {
-            return "*"
+        return numbers.map { (number) -> Int in
+            defer {
+                j += 1
+            }
+            return number + arr2[i][j]
         }
-        
-        return character
-    })
+    }
 }
 
-solution("01033334444")
-solution("027778888")
+solution([[1,2],[2,3]], [[3,4],[5,6]])
+solution([[1],[2]], [[3],[4]])
