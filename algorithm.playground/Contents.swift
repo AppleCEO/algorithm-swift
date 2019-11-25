@@ -1,13 +1,8 @@
-func solution(_ x:Int, _ n:Int) -> [Int64] {
-    let result = Array<Int>.init(repeating: 0, count: n)
-    var index = 0
-    
-    return result.map { (_) -> Int64 in
-        index += 1
-        return Int64(index*x)
-    }
-}
+import Foundation
 
-solution(2, 5)
-solution(4, 3)
-solution(-4, 2)
+//let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
+let n = readLine()?.components(separatedBy: [" "]).map { Int($0) ?? 0 }
+let (a, b) = (n?[0], n?[1])
+
+print(<#T##items: Any...##Any#>)
+
