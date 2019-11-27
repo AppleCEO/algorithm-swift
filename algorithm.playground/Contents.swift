@@ -1,20 +1,31 @@
-import Foundation
-
-func solution(_ d:[Int], _ budget:Int) -> Int {
-    var total = 0
-    var count = 0
+func solution(_ n:Int, _ arr1:[Int], _ arr2:[Int]) -> [String] {
+    var answer: [String] = Array<String>.init(repeating: "", count: arr1.count)
     
-    for department in d.sorted() {
-        if department + total <= budget {
-            count += 1
-            total += department
-        } else {
-            break
+    func pad(string : String, toSize: Int) -> String {
+      var padded = string
+      for _ in 0..<(toSize - string.count) {
+        padded = "0" + padded
+      }
+        return padded
+    }
+    
+    for stringIndex in 0..<arr1.count {
+        let binary1 = Array(pad(string: String(arr1[stringIndex], radix: 2), toSize: arr1.count))
+        let binary2 = Array(pad(string: String(arr2[stringIndex], radix: 2), toSize: arr1.count))
+        
+        
+        
+        for (charIndex, character) in binary1.enumerated() {
+            if character == "0" && binary2[charIndex] == "0" {
+                answer[stringIndex] += " "
+            } else {
+                answer[stringIndex] += "#"
+            }
         }
     }
     
-    return count
+    return answer
 }
 
-solution([1,3,2,5,4], 9)
-solution([2,2,3,3], 10)
+solution(5, [9, 20, 28, 18, 11], [30, 1, 21, 17, 28])
+solution(6, [46, 33, 33 ,22, 31, 50], [27 ,56, 19, 14, 14, 10])
