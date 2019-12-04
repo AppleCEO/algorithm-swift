@@ -1,9 +1,15 @@
-public func solution(_ A : inout [Int]) -> Int {
-    var pairedNumbersCounts = [Int: Int]()
-
-    for item in A {
-        pairedNumbersCounts[item] = (pairedNumbersCounts[item] ?? 0) + 1
-    }    
+public func solution(_ A : inout [Int], _ K : Int) -> [Int] {
+    var answer = [Int](repeating: 0, count: A.count)
     
-    return pairedNumbersCounts.filter { $0.value % 2 == 1 }.first!.key
+    for index in 0..<A.count {
+        if index + K >= A.count {
+            let adjustedIndex =  (index + K) % A.count
+            answer[adjustedIndex] = A[index]
+            continue
+        }
+        
+        answer[index + K] = A[index]
+    }
+    
+    return answer
 }
