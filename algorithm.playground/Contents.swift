@@ -1,22 +1,9 @@
-public func solution(_ N : Int) -> Int {
-    let binary = String(N, radix: 2)
-    var longestBinaryGap = 0
-    var currentBinaryGap = 0
+public func solution(_ A : inout [Int]) -> Int {
+    var pairedNumbersCounts = [Int: Int]()
+
+    for item in A {
+        pairedNumbersCounts[item] = (pairedNumbersCounts[item] ?? 0) + 1
+    }    
     
-    for character in binary {
-        if character == "1" {
-            if currentBinaryGap > longestBinaryGap {
-                longestBinaryGap = currentBinaryGap
-            }
-            
-            currentBinaryGap = 0
-            continue
-        }
-        
-        currentBinaryGap += 1
-        
-        
-    }
-    
-    return longestBinaryGap
+    return pairedNumbersCounts.filter { $0.value % 2 == 1 }.first!.key
 }
