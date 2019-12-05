@@ -1,7 +1,26 @@
 public func solution(_ A : inout [Int]) -> Int {
-    let totalSum = A.reduce(0, { (s1: Int, s2: Int) -> Int in
+    var lhs = A.first!
+    var rhs = A.reduce(0, { (s1: Int, s2: Int) -> Int in
         return s1 + s2
-    })
+    }) - lhs
+    var minimalDifference = lhs - rhs
+    if minimalDifference < 0 {
+        minimalDifference *= -1
+    }
     
-    return (A.count+2)*(A.count+1)/2 - totalSum
+    for index in 1..<A.count-1 {
+        lhs += A[index]
+        rhs -= A[index]
+        
+        var difference = lhs - rhs
+        if difference < 0 {
+            difference *= -1
+        }
+        
+        if difference < minimalDifference {
+            minimalDifference = difference
+        }
+    }
+    
+    return minimalDifference
 }
