@@ -1,15 +1,7 @@
-public func solution(_ A : inout [Int], _ K : Int) -> [Int] {
-    var answer = [Int](repeating: 0, count: A.count)
+public func solution(_ A : inout [Int]) -> Int {
+    let totalSum = A.reduce(0, { (s1: Int, s2: Int) -> Int in
+        return s1 + s2
+    })
     
-    for index in 0..<A.count {
-        if index + K >= A.count {
-            let adjustedIndex =  (index + K) % A.count
-            answer[adjustedIndex] = A[index]
-            continue
-        }
-        
-        answer[index + K] = A[index]
-    }
-    
-    return answer
+    return (A.count+2)*(A.count+1)/2 - totalSum
 }
