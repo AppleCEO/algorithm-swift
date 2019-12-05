@@ -1,11 +1,16 @@
-public func solution(_ A : inout [Int]) -> Int {
-    let sortedA = A.sorted()
-    
-    for (index, item) in sortedA.enumerated() {
-        if index + 1 != item {
-            return 0
+public func solution(_ X : Int, _ A : inout [Int]) -> Int {
+    var condition = [Int: Int]()
+        
+    for (index, item) in A.enumerated() {
+        if item <= X {
+            condition[item] = (condition[item] ?? 0) + 1    
         }
-    }
+        
+        if condition.count == X {
+            return index
+        }
+    }    
     
-    return 1
+    
+    return -1
 }
