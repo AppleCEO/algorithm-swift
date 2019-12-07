@@ -1,34 +1,38 @@
-//let N = Int(readLine() ?? "0")
-
-func solution(_ N: Int) {
-    if N % 5 == 0 {
-        print(N/5)
-        return
-    }
+public func solution(_ N : Int, _ A : inout [Int]) -> [Int] {
+    var dictionary = [Int: Int]()
+    var max = 0
+    var valueMax = 0
+    var answer = [Int]()
     
-    if N>4 {
-        for number in 0...N/5 {
-            let share = N/5 - number
-            if (N - share*5) % 3 == 0 {
-                print(share + (N - share*5)/3)
-                return
-            }
+    for item in A {
+        if item == N+1 {
+            max = valueMax
+            continue
+        }
+        
+        if let value = dictionary[item-1], value < max {
+            dictionary[item-1] = max + 1
+        } else {
+            dictionary[item-1] = (dictionary[item-1] ?? max) + 1
+        }
+        
+        if let value = dictionary[item-1], value > valueMax {
+            valueMax = value
         }
     }
-
-    if N % 3 == 0 {
-        print(N/3)
-        return
+    
+    for index in 0..<N {
+        if let value = dictionary[index] {
+            if value < max {
+                answer.append(max)
+                continue
+            }
+            answer.append(value)
+            continue
+        } else {
+            answer.append(max)
+        }
     }
     
-    print(-1)
+    return answer
 }
-
-solution(18)
-solution(4)
-solution(6)
-solution(9)
-solution(11)
-solution(3)
-solution(5)
-solution(7)
