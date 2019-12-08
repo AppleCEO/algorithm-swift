@@ -1,21 +1,19 @@
 public func solution(_ A : inout [Int]) -> Int {
-    var dictionary = [Int: Int]()
+    var carTravelingEastCount = 0
+    var answer = 0
     
     for item in A {
-        if item <= A.count && item > 0 {
-            dictionary[item] = (dictionary[item] ?? 0) + 1
+        if item == 0 {
+            carTravelingEastCount += 1
+            continue
+        }
+        
+        answer += carTravelingEastCount
+        
+        if answer > 1000000000 {
+            return -1
         }
     }
     
-    if dictionary.count == 0 {
-        return 1
-    }
-    
-    for index in 1...dictionary.count {
-        if dictionary[index] == nil {
-            return index
-        }
-    }
-    
-    return dictionary.count+1
+    return answer
 }
