@@ -29,8 +29,9 @@
 
 [MaxCounters](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) -> [풀이](https://app.codility.com/demo/results/trainingSJJQDK-XHN/)
 
-
-
+[MissingInteger](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) -> [풀이](https://app.codility.com/demo/results/trainingPZRWNX-5V4/)
 
 ### Lesson 5:
-https://app.codility.com/demo/results/training3Z9P6X-PEK/
+[PassingCars](https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/) -> [풀이](https://app.codility.com/demo/results/trainingJ686MM-HA3/)
+
+[GenomicRangeQuery](https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/) -> [푸는 중](https://app.codility.com/demo/results/training3Z9P6X-PEK/)
