@@ -1,45 +1,19 @@
 import Foundation
 
-public func solution(_ N : Int, _ A : inout [Int]) -> [Int] {
-    var dictionary = [Int: Int]()
-    var max = 0
-    var valueMax = 0
-    var answer = [Int]()
+public func solution(_ A : inout [Int]) -> Int {
+    var dictionary = [Int: Bool]()
     
     for item in A {
-        if item == N+1 {
-            max = valueMax
+        dictionary[item] = true
+    }
+    
+    for index in 1...A.count {
+        if let check = dictionary[index], check == true {
             continue
         }
         
-        if let value = dictionary[item] {
-            if value < max {
-                dictionary[item] = max + 1
-            } else {
-                dictionary[item] = (dictionary[item] ?? max) + 1
-            }
-        } else {
-            dictionary[item] = (dictionary[item] ?? max) + 1
-        }
-        
-        if valueMax < dictionary[item] ?? valueMax {
-            valueMax = dictionary[item]!
-        }
+        return index
     }
     
-    for index in 1...N {
-        if let value = dictionary[index] {
-            if value < max {
-                answer.append(max)
-                continue
-            }
-        }
-        
-        answer.append(dictionary[index] ?? max)
-    }
-    
-    return answer
+    return A.count+1
 }
-
-var array = [6, 6, 6, 6, 6, 6]
-solution(5, &array)
