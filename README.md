@@ -11,8 +11,7 @@
 ### Lesson 2: Arrays
 [OddOccurrencesInArray](https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/) -> [풀이](https://app.codility.com/demo/results/training72VQNX-Q8T/)
 
-[CyclicRotation](https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/) -> [풀이]
-(https://app.codility.com/demo/results/trainingPBDNDV-DGJ/)
+[CyclicRotation](https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/) -> [풀이](https://app.codility.com/demo/results/trainingPBDNDV-DGJ/)
 
 ### Lesson 3: Time Complexity
 [FrogJmp](https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/) -> [풀이](https://app.codility.com/demo/results/trainingWG59FJ-GCH/)
@@ -26,7 +25,9 @@
 
 [FrogRiverOne](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) -> [풀이](https://app.codility.com/demo/results/trainingJAKUR2-X35/)
 
-[MaxCounters](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) -> [풀이]()
+[MaxCounters](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) -> [풀이](https://app.codility.com/demo/results/trainingSJJQDK-XHN/)
+
+
 
 
 ### Lesson 5:
