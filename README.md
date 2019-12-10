@@ -8,7 +8,7 @@
 ## Codility
 
 ### Lesson 1: Iterations
-[Binary Gap](https://app.codility.com/programmers/lessons/1-iterations/binary_ga) -> [풀이](https://app.codility.com/demo/results/trainingCPAKSX-ZAE/)
+[Binary Gap](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/) -> [풀이](https://app.codility.com/demo/results/trainingCPAKSX-ZAE/)
 
 ### Lesson 2: Arrays
 [OddOccurrencesInArray](https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/) -> [풀이](https://app.codility.com/demo/results/training72VQNX-Q8T/)
