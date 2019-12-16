@@ -3,38 +3,48 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=596&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=28&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598176347.058064"
+         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=887&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=42&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598183935.160035"
          selectedRepresentationIndex = "2"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=596&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=28&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598176347.058183"
+         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=887&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=42&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598183935.160156"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=596&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=28&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598176347.058272"
+         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=887&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=42&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598183935.160246"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=596&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=28&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598176347.058356"
+         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=887&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=42&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598183935.160331"
          selectedRepresentationIndex = "2"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=596&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=28&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598176347.0584559"
+         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=887&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=42&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598183935.160414"
          selectedRepresentationIndex = "2"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=596&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=28&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598176347.0585411"
+         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=887&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=42&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598183935.160498"
          selectedRepresentationIndex = "2"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=596&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=28&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598176347.058623"
+         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=887&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=42&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=598183935.16058"
          selectedRepresentationIndex = "2"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=5&amp;CharacterRangeLoc=105&amp;EndingColumnNumber=14&amp;EndingLineNumber=4&amp;StartingColumnNumber=9&amp;StartingLineNumber=4&amp;Timestamp=598183935.160663"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/joon-hokil/Developer/algorithm/algorithm-swift/algorithm.playground#CharacterRangeLen=3&amp;CharacterRangeLoc=448&amp;EndingColumnNumber=16&amp;EndingLineNumber=19&amp;StartingColumnNumber=13&amp;StartingLineNumber=19&amp;Timestamp=598183935.160746"
+         selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
    </TimelineItems>
