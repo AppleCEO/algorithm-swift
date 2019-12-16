@@ -45,3 +45,5 @@
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
 [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/acbfdb6bcd744461b67310b399366396b969d733/algorithm.playground/Contents.swift)
+
+[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/7b9518f8708fa60c1f56dcf85c1b04bc96b949b4/algorithm.playground/Contents.swift_
