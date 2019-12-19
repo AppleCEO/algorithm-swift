@@ -40,8 +40,8 @@
 ## Programmers
 
 ### Level1
-[모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) -> [풀이]
-(https://gist.github.com/AppleCEO/adea7b8c6a23f09fa1c22ee6d5d0a1a5)
+[모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) -> [풀이](https://gist.github.com/AppleCEO/adea7b8c6a23f09fa1c22ee6d5d0a1a5)
+
 [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) -> [풀이](https://gist.github.com/AppleCEO/24131af593523032bac87bcf5af829c1)
 
 
