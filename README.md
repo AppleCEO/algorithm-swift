@@ -40,6 +40,10 @@
 ## Programmers
 
 ### Level1
+[모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) -> [풀이]
+(https://gist.github.com/AppleCEO/adea7b8c6a23f09fa1c22ee6d5d0a1a5)
+[K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) -> [풀이](https://gist.github.com/AppleCEO/24131af593523032bac87bcf5af829c1)
+
 
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
