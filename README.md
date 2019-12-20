@@ -44,6 +44,7 @@
 
 [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) -> [풀이](https://gist.github.com/AppleCEO/24131af593523032bac87bcf5af829c1)
 
+[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) -> [풀이](https://gist.github.com/AppleCEO/e4acc49087559d057ae736ee8efb330e)
 
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
