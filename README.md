@@ -46,6 +46,8 @@
 
 [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) -> [풀이](https://gist.github.com/AppleCEO/e4acc49087559d057ae736ee8efb330e)
 
+[2016년](https://programmers.co.kr/learn/courses/30/lessons/12901) -> [풀이](https://gist.github.com/AppleCEO/83a138aa104241825159fa22956a54d9)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
