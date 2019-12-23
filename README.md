@@ -48,6 +48,8 @@
 
 [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901) -> [풀이](https://gist.github.com/AppleCEO/83a138aa104241825159fa22956a54d9)
 
+[가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) -> [풀이](https://gist.github.com/AppleCEO/c0f3c118994eb65f6c848dd4113491d1)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
