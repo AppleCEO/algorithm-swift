@@ -50,6 +50,8 @@
 
 [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) -> [풀이](https://gist.github.com/AppleCEO/c0f3c118994eb65f6c848dd4113491d1)
 
+[나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910) -> [풀이](https://gist.github.com/AppleCEO/d974a57c1fa8a341c9e42b267ab19b04)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
