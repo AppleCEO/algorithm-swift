@@ -54,6 +54,8 @@
 
 [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912) -> [풀이](https://gist.github.com/AppleCEO/63afbdd151835c0d86c2ae295c03673e)
 
+[문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915) -> [풀이](https://gist.github.com/AppleCEO/5c885f59e97e8a38a2ca1b00de13feaf)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
