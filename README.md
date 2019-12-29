@@ -56,6 +56,8 @@
 
 [문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915) -> [풀이](https://gist.github.com/AppleCEO/5c885f59e97e8a38a2ca1b00de13feaf)
 
+[문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916) -> [풀이](https://gist.github.com/AppleCEO/ec14d24b0ab64227def6182ab01ad3c5)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
