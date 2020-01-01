@@ -58,7 +58,9 @@
 
 [문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916) -> [풀이](https://gist.github.com/AppleCEO/ec14d24b0ab64227def6182ab01ad3c5)
 
-[문자열 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12917) ->> [풀이](https://gist.github.com/AppleCEO/f62bd3a31fdb0ec0dc0a53a098bb522c)
+[문자열 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12917) -> [풀이](https://gist.github.com/AppleCEO/f62bd3a31fdb0ec0dc0a53a098bb522c)
+
+[문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918) -> [풀이](https://gist.github.com/AppleCEO/d6adb8dbbc222022d7fff7c1fee6d6e8)
 
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
