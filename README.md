@@ -62,6 +62,8 @@
 
 [문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918) -> [풀이](https://gist.github.com/AppleCEO/d6adb8dbbc222022d7fff7c1fee6d6e8)
 
+[서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919) -> [풀이](https://gist.github.com/AppleCEO/3fc38a4dd6c3a185f2a91225663fe563)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
