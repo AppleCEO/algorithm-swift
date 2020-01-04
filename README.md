@@ -66,6 +66,8 @@
 
 [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/12921) -> [풀이](https://gist.github.com/AppleCEO/0eac4eb89f689e50233bbe4c58c8ca36)
 
+[수박](https://programmers.co.kr/learn/courses/30/lessons/12922) -> [풀이](https://gist.github.com/AppleCEO/da7c4221d934ee2471f928dbc8466111)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
