@@ -72,6 +72,8 @@
 
 [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926) -> [풀이](https://gist.github.com/AppleCEO/6f59bcc101c57caf4b788bad2eff7e58)
 
+[약수으 합[(https://programmers.co.kr/learn/courses/30/lessons/12928) -> [풀이](https://gist.github.com/AppleCEO/c4773d7802591d0eac905ea316796474)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
