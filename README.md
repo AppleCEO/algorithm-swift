@@ -74,6 +74,9 @@
 
 [약수의 합](https://programmers.co.kr/learn/courses/30/lessons/12928) -> [풀이](https://gist.github.com/AppleCEO/c4773d7802591d0eac905ea316796474)
 
+[이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930) -> [풀이](https://gist.github.com/AppleCEO/587bf781832447beab8407308543f75e)
+
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
