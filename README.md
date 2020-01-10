@@ -78,6 +78,8 @@
 
 [자릿수 더하기](https://programmers.co.kr/learn/courses/30/lessons/12931) -> [풀이](https://gist.github.com/AppleCEO/afb953ea36bd13bd3c69cea2990fcba0)
 
+[자연수 뒤집어 배열로 만들기](https://programmers.co.kr/learn/courses/30/lessons/12932) -> [풀이](https://gist.github.com/AppleCEO/738eff9c275e00502fad93e058a9a840)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
