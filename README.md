@@ -80,6 +80,10 @@
 
 [자연수 뒤집어 배열로 만들기](https://programmers.co.kr/learn/courses/30/lessons/12932) -> [풀이](https://gist.github.com/AppleCEO/738eff9c275e00502fad93e058a9a840)
 
+[정수 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12933) -> [풀이](https://gist.github.com/AppleCEO/33b5bd2ead62817446c7a358033a5f99)
+
+[정수 제곱근 판별](https://programmers.co.kr/learn/courses/30/lessons/12934) -> [풀이](https://gist.github.com/AppleCEO/0bd0cb317439a176ba7ecc5cc22e0462)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
