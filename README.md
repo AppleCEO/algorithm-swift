@@ -84,6 +84,8 @@
 
 [정수 제곱근 판별](https://programmers.co.kr/learn/courses/30/lessons/12934) -> [풀이](https://gist.github.com/AppleCEO/0bd0cb317439a176ba7ecc5cc22e0462)
 
+[제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935) -> [풀이](https://gist.github.com/AppleCEO/91a47a688398fb064b2c6692f4aa3c9a)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
