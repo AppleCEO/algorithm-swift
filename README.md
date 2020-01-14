@@ -86,6 +86,14 @@
 
 [제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935) -> [풀이](https://gist.github.com/AppleCEO/91a47a688398fb064b2c6692f4aa3c9a)
 
+[짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937) -> [풀이](https://gist.github.com/AppleCEO/367b398e73387cec43fc71cb87431ee0)
+
+[최대공약수와 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940) -> [풀이](https://gist.github.com/AppleCEO/c8927af10ce378bd7b0f9c50a43749d4)
+
+[콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943) -> [풀이](https://gist.github.com/AppleCEO/ff62a1415abc3756bde9b8b77a7be5a1)
+
+[평균 구하기](https://programmers.co.kr/learn/courses/30/lessons/12944) -> [풀이](https://gist.github.com/AppleCEO/a4b48c134f71a5a7226b9b5e98fb788a)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
