@@ -94,6 +94,8 @@
 
 [평균 구하기](https://programmers.co.kr/learn/courses/30/lessons/12944) -> [풀이](https://gist.github.com/AppleCEO/a4b48c134f71a5a7226b9b5e98fb788a)
 
+[하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947) -> [풀이](https://gist.github.com/AppleCEO/9233c720e7fd3def7b5b7306c1adacc2)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
