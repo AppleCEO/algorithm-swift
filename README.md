@@ -100,6 +100,8 @@
 
 [행렬의 덧셈](https://programmers.co.kr/learn/courses/30/lessons/12950) -> [풀이](https://gist.github.com/AppleCEO/20c043a9dd3982545f55c0726cd3293b)
 
+[x만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954) -> [풀이](https://gist.github.com/AppleCEO/3267715ea7dc4058e554ccc732c48306)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
