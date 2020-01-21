@@ -102,6 +102,8 @@
 
 [x만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954) -> [풀이](https://gist.github.com/AppleCEO/3267715ea7dc4058e554ccc732c48306)
 
+[직사각혀 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969) -> [풀이](https://gist.github.com/AppleCEO/c01446bbd9f1a1b9584e2aa7fa239091)
+
 ### Level2
 [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/0bc84c651e2c187a311e6e699ade930773d4c949/algorithm.playground/Contents.swift)
 
