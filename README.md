@@ -116,3 +116,7 @@
 [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/7b9518f8708fa60c1f56dcf85c1b04bc96b949b4/algorithm.playground/Contents.swift)
 
 [탑](https://programmers.co.kr/learn/courses/30/lessons/42588) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/60e4f97313b33c70397258c1086d3cd8f4a1e37f/algorithm.playground/Contents.swift)
+
+
+## leetcode
+[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/submissions/) -> [풀이](https://gist.github.com/AppleCEO/b1a0e888de5da1ebb4512eac03eec2d6)
