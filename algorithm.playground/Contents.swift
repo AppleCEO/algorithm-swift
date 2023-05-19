@@ -1,19 +1,21 @@
 import Foundation
 
-func solution(_ heights:[Int]) -> [Int] {
-    var answer = [Int].init(repeating: 0, count: heights.count)
-    
-    for (index, height) in heights.enumerated() {
-        for innerIndex in 0...index {
-            let topIndex = index-innerIndex
-            if heights[topIndex] > height {
-                answer[index] = topIndex+1
-                break
+func solution(_ name:[String], _ yearning:[Int], _ photo:[[String]]) -> [Int] {
+    var scores = [String: Int]()
+    var answer = [Int]()
+    for index in 0..<name.count {
+        scores[name[index]] = yearning[index]
+    }
+    for photoes in photo {
+        var currentScore = 0
+        for photoe in photoes {
+            if let score = scores[photoe] {
+                currentScore += score
             }
         }
+        answer.append(currentScore)
     }
-    
     return answer
 }
 
-solution([6,9,5,7,4])
+solution(["may", "kein", "kain", "radi"], [5, 10, 1, 3], [["may"],["kein", "deny", "may"], ["kon", "coni"]])
