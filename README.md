@@ -117,6 +117,26 @@
 
 [탑](https://programmers.co.kr/learn/courses/30/lessons/42588) -> [풀이](https://github.com/AppleCEO/algorithm-swift/blob/60e4f97313b33c70397258c1086d3cd8f4a1e37f/algorithm.playground/Contents.swift)
 
+[추억 점수](https://school.programmers.co.kr/learn/courses/30/lessons/176963)
+import Foundation
+
+func solution(_ name:[String], _ yearning:[Int], _ photo:[[String]]) -> [Int] {
+    var scores = [String: Int]()
+    var answer = [Int]()
+    for index in 0..<name.count {
+        scores[name[index]] = yearning[index]
+    }
+    for photoes in photo {
+        var currentScore = 0
+        for photoe in photoes {
+            if let score = scores[photoe] {
+                currentScore += score
+            }
+        }
+        answer.append(currentScore)
+    }
+    return answer
+}
 
 ## leetcode
 [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/submissions/) -> [풀이](https://gist.github.com/AppleCEO/b1a0e888de5da1ebb4512eac03eec2d6)
